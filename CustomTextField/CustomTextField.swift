@@ -62,7 +62,7 @@ final class CustomTextField: UIView {
         textFieldBackgroundView.bottomAnchor.constraint(equalTo: textField.bottomAnchor, constant: 9).isActive = true
         
         textField.leftAnchor.constraint(equalTo: textFieldBackgroundView.leftAnchor, constant: 6).isActive = true
-        textField.rightAnchor.constraint(equalTo: textFieldBackgroundView.rightAnchor).isActive = true
+        textField.rightAnchor.constraint(equalTo: textFieldBackgroundView.rightAnchor, constant: -6).isActive = true
         
         translatesAutoresizingMaskIntoConstraints = false
         heightAnchor.constraint(equalTo: textFieldBackgroundView.heightAnchor).isActive = true
