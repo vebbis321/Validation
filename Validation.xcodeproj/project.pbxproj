@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235D9A5C2A7502DB006BD03C /* NameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A5B2A7502DB006BD03C /* NameViewModel.swift */; };
+		235D9A5E2A75050E006BD03C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A5D2A75050E006BD03C /* String+Extensions.swift */; };
+		235D9A602A7507A4006BD03C /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A5F2A7507A4006BD03C /* UITextField+Extensions.swift */; };
 		235EFDDD2A6FC98500F13E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235EFDDC2A6FC98500F13E01 /* AppDelegate.swift */; };
 		235EFDDF2A6FC98500F13E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235EFDDE2A6FC98500F13E01 /* SceneDelegate.swift */; };
-		235EFDE12A6FC98500F13E01 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235EFDE02A6FC98500F13E01 /* TestViewController.swift */; };
+		235EFDE12A6FC98500F13E01 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235EFDE02A6FC98500F13E01 /* NameViewController.swift */; };
 		235EFDE42A6FC98500F13E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235EFDE22A6FC98500F13E01 /* Main.storyboard */; };
 		235EFDE62A6FC98600F13E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235EFDE52A6FC98600F13E01 /* Assets.xcassets */; };
 		235EFDE92A6FC98600F13E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235EFDE72A6FC98600F13E01 /* LaunchScreen.storyboard */; };
@@ -21,10 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		235D9A5B2A7502DB006BD03C /* NameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewModel.swift; sourceTree = "<group>"; };
+		235D9A5D2A75050E006BD03C /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		235D9A5F2A7507A4006BD03C /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		235EFDD92A6FC98500F13E01 /* Validation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Validation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235EFDDC2A6FC98500F13E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		235EFDDE2A6FC98500F13E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		235EFDE02A6FC98500F13E01 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		235EFDE02A6FC98500F13E01 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		235EFDE32A6FC98500F13E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		235EFDE52A6FC98600F13E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235EFDE82A6FC98600F13E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +75,8 @@
 				235EFDF02A6FC9B100F13E01 /* Extensions */,
 				235EFDDC2A6FC98500F13E01 /* AppDelegate.swift */,
 				235EFDDE2A6FC98500F13E01 /* SceneDelegate.swift */,
-				235EFDE02A6FC98500F13E01 /* TestViewController.swift */,
+				235EFDE02A6FC98500F13E01 /* NameViewController.swift */,
+				235D9A5B2A7502DB006BD03C /* NameViewModel.swift */,
 				235EFDF32A6FCA6C00F13E01 /* CustomTextField.swift */,
 				235EFDF52A6FCE9E00F13E01 /* CustomTextField+TextFieldType.swift */,
 				235EFDF72A6FCF7E00F13E01 /* CustomTextField+ViewModel.swift */,
@@ -86,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				235EFDF12A6FC9D400F13E01 /* UIViewController+Extensions.swift */,
+				235D9A5D2A75050E006BD03C /* String+Extensions.swift */,
+				235D9A5F2A7507A4006BD03C /* UITextField+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -161,11 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235D9A5E2A75050E006BD03C /* String+Extensions.swift in Sources */,
 				235EFDF22A6FC9D400F13E01 /* UIViewController+Extensions.swift in Sources */,
-				235EFDE12A6FC98500F13E01 /* TestViewController.swift in Sources */,
+				235EFDE12A6FC98500F13E01 /* NameViewController.swift in Sources */,
+				235D9A602A7507A4006BD03C /* UITextField+Extensions.swift in Sources */,
 				235EFDDD2A6FC98500F13E01 /* AppDelegate.swift in Sources */,
 				235EFDDF2A6FC98500F13E01 /* SceneDelegate.swift in Sources */,
 				235EFDF62A6FCE9E00F13E01 /* CustomTextField+TextFieldType.swift in Sources */,
+				235D9A5C2A7502DB006BD03C /* NameViewModel.swift in Sources */,
 				235EFDF82A6FCF7E00F13E01 /* CustomTextField+ViewModel.swift in Sources */,
 				235EFDFA2A6FD1A200F13E01 /* CustomTextField+FocusState.swift in Sources */,
 				235EFDF42A6FCA6C00F13E01 /* CustomTextField.swift in Sources */,
