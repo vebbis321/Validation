@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		235EFDD92A6FC98500F13E01 /* CustomTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		235EFDD92A6FC98500F13E01 /* Validation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Validation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235EFDDC2A6FC98500F13E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		235EFDDE2A6FC98500F13E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		235EFDE02A6FC98500F13E01 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		235EFDD02A6FC98500F13E01 = {
 			isa = PBXGroup;
 			children = (
-				235EFDDB2A6FC98500F13E01 /* CustomTextField */,
+				235EFDDB2A6FC98500F13E01 /* Validation */,
 				235EFDDA2A6FC98500F13E01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		235EFDDA2A6FC98500F13E01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				235EFDD92A6FC98500F13E01 /* CustomTextField.app */,
+				235EFDD92A6FC98500F13E01 /* Validation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		235EFDDB2A6FC98500F13E01 /* CustomTextField */ = {
+		235EFDDB2A6FC98500F13E01 /* Validation */ = {
 			isa = PBXGroup;
 			children = (
 				235EFDF02A6FC9B100F13E01 /* Extensions */,
@@ -79,7 +79,7 @@
 				235EFDE72A6FC98600F13E01 /* LaunchScreen.storyboard */,
 				235EFDEA2A6FC98600F13E01 /* Info.plist */,
 			);
-			path = CustomTextField;
+			path = Validation;
 			sourceTree = "<group>";
 		};
 		235EFDF02A6FC9B100F13E01 /* Extensions */ = {
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		235EFDD82A6FC98500F13E01 /* CustomTextField */ = {
+		235EFDD82A6FC98500F13E01 /* Validation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 235EFDED2A6FC98600F13E01 /* Build configuration list for PBXNativeTarget "CustomTextField" */;
+			buildConfigurationList = 235EFDED2A6FC98600F13E01 /* Build configuration list for PBXNativeTarget "Validation" */;
 			buildPhases = (
 				235EFDD52A6FC98500F13E01 /* Sources */,
 				235EFDD62A6FC98500F13E01 /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomTextField;
+			name = Validation;
 			productName = CustomTextField;
-			productReference = 235EFDD92A6FC98500F13E01 /* CustomTextField.app */;
+			productReference = 235EFDD92A6FC98500F13E01 /* Validation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 235EFDD42A6FC98500F13E01 /* Build configuration list for PBXProject "CustomTextField" */;
+			buildConfigurationList = 235EFDD42A6FC98500F13E01 /* Build configuration list for PBXProject "Validation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				235EFDD82A6FC98500F13E01 /* CustomTextField */,
+				235EFDD82A6FC98500F13E01 /* Validation */,
 			);
 		};
 /* End PBXProject section */
@@ -317,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5PPJ3G439;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomTextField/Info.plist;
+				INFOPLIST_FILE = Validation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Thel.CustomTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thel.Validation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -348,7 +348,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5PPJ3G439;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomTextField/Info.plist;
+				INFOPLIST_FILE = Validation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -359,7 +359,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Thel.CustomTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thel.Validation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		235EFDD42A6FC98500F13E01 /* Build configuration list for PBXProject "CustomTextField" */ = {
+		235EFDD42A6FC98500F13E01 /* Build configuration list for PBXProject "Validation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				235EFDEB2A6FC98600F13E01 /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		235EFDED2A6FC98600F13E01 /* Build configuration list for PBXNativeTarget "CustomTextField" */ = {
+		235EFDED2A6FC98600F13E01 /* Build configuration list for PBXNativeTarget "Validation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				235EFDEE2A6FC98600F13E01 /* Debug */,
