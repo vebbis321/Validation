@@ -10,6 +10,13 @@
 		235D9A5C2A7502DB006BD03C /* NameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A5B2A7502DB006BD03C /* NameViewModel.swift */; };
 		235D9A5E2A75050E006BD03C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A5D2A75050E006BD03C /* String+Extensions.swift */; };
 		235D9A602A7507A4006BD03C /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A5F2A7507A4006BD03C /* UITextField+Extensions.swift */; };
+		235D9A632A7531FF006BD03C /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A622A7531FF006BD03C /* Publisher+Extensions.swift */; };
+		235D9A672A75326A006BD03C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A662A75326A006BD03C /* Validator.swift */; };
+		235D9A692A753282006BD03C /* ValidatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A682A753282006BD03C /* ValidatorType.swift */; };
+		235D9A6B2A753299006BD03C /* ValidatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A6A2A753299006BD03C /* ValidatorFactory.swift */; };
+		235D9A6D2A7532B8006BD03C /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A6C2A7532B8006BD03C /* Validatable.swift */; };
+		235D9A6F2A7532D3006BD03C /* CustomValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A6E2A7532D3006BD03C /* CustomValidations.swift */; };
+		235D9A712A7532F8006BD03C /* ValidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D9A702A7532F8006BD03C /* ValidationState.swift */; };
 		235EFDDD2A6FC98500F13E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235EFDDC2A6FC98500F13E01 /* AppDelegate.swift */; };
 		235EFDDF2A6FC98500F13E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235EFDDE2A6FC98500F13E01 /* SceneDelegate.swift */; };
 		235EFDE12A6FC98500F13E01 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235EFDE02A6FC98500F13E01 /* NameViewController.swift */; };
@@ -27,6 +34,13 @@
 		235D9A5B2A7502DB006BD03C /* NameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewModel.swift; sourceTree = "<group>"; };
 		235D9A5D2A75050E006BD03C /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		235D9A5F2A7507A4006BD03C /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		235D9A622A7531FF006BD03C /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
+		235D9A662A75326A006BD03C /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		235D9A682A753282006BD03C /* ValidatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorType.swift; sourceTree = "<group>"; };
+		235D9A6A2A753299006BD03C /* ValidatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorFactory.swift; sourceTree = "<group>"; };
+		235D9A6C2A7532B8006BD03C /* Validatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
+		235D9A6E2A7532D3006BD03C /* CustomValidations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomValidations.swift; sourceTree = "<group>"; };
+		235D9A702A7532F8006BD03C /* ValidationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationState.swift; sourceTree = "<group>"; };
 		235EFDD92A6FC98500F13E01 /* Validation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Validation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235EFDDC2A6FC98500F13E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		235EFDDE2A6FC98500F13E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +67,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235D9A612A7531EB006BD03C /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				235D9A662A75326A006BD03C /* Validator.swift */,
+				235D9A682A753282006BD03C /* ValidatorType.swift */,
+				235D9A6A2A753299006BD03C /* ValidatorFactory.swift */,
+				235D9A6C2A7532B8006BD03C /* Validatable.swift */,
+				235D9A6E2A7532D3006BD03C /* CustomValidations.swift */,
+				235D9A702A7532F8006BD03C /* ValidationState.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		235D9A642A753227006BD03C /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				235EFDF32A6FCA6C00F13E01 /* CustomTextField.swift */,
+				235EFDF52A6FCE9E00F13E01 /* CustomTextField+TextFieldType.swift */,
+				235EFDF72A6FCF7E00F13E01 /* CustomTextField+ViewModel.swift */,
+				235EFDF92A6FD1A200F13E01 /* CustomTextField+FocusState.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		235D9A652A75324C006BD03C /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				235EFDE02A6FC98500F13E01 /* NameViewController.swift */,
+				235D9A5B2A7502DB006BD03C /* NameViewModel.swift */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
 		235EFDD02A6FC98500F13E01 = {
 			isa = PBXGroup;
 			children = (
@@ -72,15 +119,12 @@
 		235EFDDB2A6FC98500F13E01 /* Validation */ = {
 			isa = PBXGroup;
 			children = (
+				235D9A612A7531EB006BD03C /* Validation */,
 				235EFDF02A6FC9B100F13E01 /* Extensions */,
+				235D9A652A75324C006BD03C /* Name */,
+				235D9A642A753227006BD03C /* CustomTextField */,
 				235EFDDC2A6FC98500F13E01 /* AppDelegate.swift */,
 				235EFDDE2A6FC98500F13E01 /* SceneDelegate.swift */,
-				235EFDE02A6FC98500F13E01 /* NameViewController.swift */,
-				235D9A5B2A7502DB006BD03C /* NameViewModel.swift */,
-				235EFDF32A6FCA6C00F13E01 /* CustomTextField.swift */,
-				235EFDF52A6FCE9E00F13E01 /* CustomTextField+TextFieldType.swift */,
-				235EFDF72A6FCF7E00F13E01 /* CustomTextField+ViewModel.swift */,
-				235EFDF92A6FD1A200F13E01 /* CustomTextField+FocusState.swift */,
 				235EFDE22A6FC98500F13E01 /* Main.storyboard */,
 				235EFDE52A6FC98600F13E01 /* Assets.xcassets */,
 				235EFDE72A6FC98600F13E01 /* LaunchScreen.storyboard */,
@@ -95,6 +139,7 @@
 				235EFDF12A6FC9D400F13E01 /* UIViewController+Extensions.swift */,
 				235D9A5D2A75050E006BD03C /* String+Extensions.swift */,
 				235D9A5F2A7507A4006BD03C /* UITextField+Extensions.swift */,
+				235D9A622A7531FF006BD03C /* Publisher+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -171,15 +216,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				235D9A5E2A75050E006BD03C /* String+Extensions.swift in Sources */,
+				235D9A6B2A753299006BD03C /* ValidatorFactory.swift in Sources */,
 				235EFDF22A6FC9D400F13E01 /* UIViewController+Extensions.swift in Sources */,
 				235EFDE12A6FC98500F13E01 /* NameViewController.swift in Sources */,
 				235D9A602A7507A4006BD03C /* UITextField+Extensions.swift in Sources */,
+				235D9A6D2A7532B8006BD03C /* Validatable.swift in Sources */,
+				235D9A672A75326A006BD03C /* Validator.swift in Sources */,
 				235EFDDD2A6FC98500F13E01 /* AppDelegate.swift in Sources */,
 				235EFDDF2A6FC98500F13E01 /* SceneDelegate.swift in Sources */,
 				235EFDF62A6FCE9E00F13E01 /* CustomTextField+TextFieldType.swift in Sources */,
 				235D9A5C2A7502DB006BD03C /* NameViewModel.swift in Sources */,
 				235EFDF82A6FCF7E00F13E01 /* CustomTextField+ViewModel.swift in Sources */,
 				235EFDFA2A6FD1A200F13E01 /* CustomTextField+FocusState.swift in Sources */,
+				235D9A632A7531FF006BD03C /* Publisher+Extensions.swift in Sources */,
+				235D9A692A753282006BD03C /* ValidatorType.swift in Sources */,
+				235D9A6F2A7532D3006BD03C /* CustomValidations.swift in Sources */,
+				235D9A712A7532F8006BD03C /* ValidationState.swift in Sources */,
 				235EFDF42A6FCA6C00F13E01 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
