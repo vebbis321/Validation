@@ -1,5 +1,5 @@
 # Validation
 
-Repo for: https://youtu.be/qOQLefGUXG0
+Repo for: https://www.youtube.com/watch?v=xuviaFBOanE
 
 Article version: https://thel.foo/posts/validation/
